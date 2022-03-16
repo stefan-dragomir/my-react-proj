@@ -1,0 +1,17 @@
+.navi div {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+.navi a {
+  text-decoration: none;
+  color: 3c0080;
+  font-size: 1.25rem;
+}
+
+.navi a:hover,
+.navi a:active {
+  color: #b864da;
+}

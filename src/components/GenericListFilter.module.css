@@ -1,0 +1,30 @@
+.search {
+  text-align: center;
+  align-items: center;
+}
+
+.search button {
+  font-size: 1rem;
+  background-color: #ffbb00;
+  border: 1px solid #ffbb00;
+  padding: 0.3rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  color: #2c2922;
+  display: inline;
+}
+
+.search input {
+  width: 10rem;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #ffbb00;
+  padding: 0.3rem 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  color: #2c2922;
+}
+
+.search button:hover,
+.search button:active {
+  background-color: #ffa600;
+  border-color: #ffa600;
+}
